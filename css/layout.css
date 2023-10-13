@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Poppins:wght@300;400;500;600&family=Raleway:wght@100;200;300;500;700&display=swap'); */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  margin: 100px 300px;
+  line-height: 1.5;
+}
+
+nav{
+  grid-area: nav;
+}
+
+main{
+  grid-area: main;
+}
+
+aside{
+  grid-area: aside;
+}
+
+.current-article{
+  grid-area: article;
+}
+
+footer{
+  grid-area: footer;
+}
+
+.container{
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+        "nav nav nav"
+        "main main aside"
+        "article article article"
+        "footer footer footer";
+}

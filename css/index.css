@@ -1,0 +1,173 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+nav svg{
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#a19ea4;
+  font-size: 2rem;
+}
+
+nav ul li a:hover{
+  color: #f15d51;
+}
+
+/* main content style */
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero-content{
+  display: flex;
+
+}
+
+.hero-content h1{
+  font-size: 7rem;
+  line-height: 1;
+}
+
+.hero{
+  background-image: url(/assets/images/image-web-3-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  width: 100%;
+  height: 50vh; 
+}
+
+.hero-text{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-text button{
+  color: white;
+  height: 80px;
+  width: 350px;
+  background-color: #f15d51;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-text button:hover{
+  background-color: #00001a;
+  color: white;
+  transition: background-color 0.5ms ease-in-out 0.2ms, color 0.5ms ease-in-out 0.2ms;
+}
+
+
+.hero-text p{
+  color: grey;
+  font-size: 2rem
+}
+
+/* style for aside section */
+aside{
+  background-color: #00001a;
+  display: flex;
+  flex-direction: column;
+}
+
+aside h1{
+  color: #e3ac63;
+  font-size: 4rem;
+  padding-top: 100px;
+}
+
+.news-text{
+  height: 30%;
+  width: 70%;
+  margin: 0px auto;
+  padding: 40px 0px;
+}
+
+.news-text h2 a{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.news-text h2 a:hover{
+  color: #e3ac63;
+}
+
+
+.news-text p{
+  color: grey;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+.news-text:nth-child(2){
+  border-bottom: 0.1px solid grey;
+}
+
+.news-text:nth-child(3){
+  border-bottom: 0.1px solid grey;
+}
+
+.news-header{
+  margin-left: 15%;
+}
+
+/* current article styles */
+
+.current-article{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 50px;
+}
+.articles{
+  display: flex;
+  gap: 2rem;
+  margin-top: 60px;
+}
+
+.art-header h1{
+  color: #c9c6cd;
+  font-size: 4rem;
+}
+.art-header h2 a{
+  font-size: 2rem;
+  margin: 15px 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.art-header h2 a:hover{
+  color: #f15d51;
+}
+
+.art-header p{
+  color: grey;
+  font-size: 2rem;
+}
+
